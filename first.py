@@ -21,12 +21,14 @@ print("hello world!!!!!\nhello world!!!!!")
 a = input("a:")
 b = input("b:")
 
-c = a 
+c = a
 a = b
 b = c
 
 #or
 #a, b = b, a
 
-print("a = " + a)
+print(f"a = {a}")
+#f-string
 print(f"b = {b}")
+
